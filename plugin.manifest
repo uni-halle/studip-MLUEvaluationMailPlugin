@@ -1,0 +1,6 @@
+pluginclassname=MLUEvaluationMailPlugin
+pluginname=MLUEvaluationMailPlugin
+origin=data-quest
+version=20131
+studipMinVersion=2.0
+

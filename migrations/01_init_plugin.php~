@@ -1,0 +1,24 @@
+<?php
+class InitPlugin extends DBMigration
+{
+	function up(){
+		DBManager::get()->exec("INSERT IGNORE INTO  `datafields` (
+`datafield_id` ,
+`name` ,
+`object_type` ,
+`object_class` ,
+`edit_perms` ,
+`view_perms` ,
+`priority` ,
+`mkdate` ,
+`chdate` ,
+`type` ,
+`typeparam`
+)
+VALUES (
+MD5(  'instabbr' ) ,  'Abkürzung',  'inst', NULL ,  'root',  'root',  '99', UNIX_TIMESTAMP( ) , UNIX_TIMESTAMP( ) ,  'textline',  ''
+)");
+
+
+	}
+}
