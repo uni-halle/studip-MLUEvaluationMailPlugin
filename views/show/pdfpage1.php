@@ -40,12 +40,12 @@
             <td valign ="top"  align="center" style="border-right:1px solid black;border-bottom: 1px solid black"><b>
             <?= ($_POST['durchfuehrung'] == "online" ? "(x)" : "(&nbsp;)") ?>&nbsp;
             Die Veranstaltungsteilnehmer/innen erhalten per Email (...@student.uni-halle.de) eine Berechtigung und einen Link zur Evaluation.</b><br/>
-                Zeitraum: 7.1.2014 bis 21.1.2014
+                Zeitraum: 17.06.2013 bis 28.06.2013
             </td>
             <td valign ="top" align="center" style="border-left:1px solid black;border-bottom: 1px solid black"><b>Zeitpunkt der Evaluation in der Lehrveranstaltung:</b><br/>
-                <?= ($_POST['durchfuehrung'] == "papier" && $_POST['papierZeit'] == "papierZeit1" ? "(x)" : "(&nbsp;)") ?> 07.01.2014 bis 10.01.2014  (erste Erhebungswoche)<br/>
+                <?= ($_POST['durchfuehrung'] == "papier" && $_POST['papierZeit'] == "papierZeit1" ? "(x)" : "(&nbsp;)") ?> 17.06.2013 bis 21.06.2013 (erste Erhebungswoche)<br/>
                 oder<br/>
-                <?= ($_POST['durchfuehrung'] == "papier" && $_POST['papierZeit'] == "papierZeit2" ? "(x)" : "(&nbsp;)") ?> 13.01.2014 bis 17.01.2014  (zweite Erhebungswoche)<br/>
+                <?= ($_POST['durchfuehrung'] == "papier" && $_POST['papierZeit'] == "papierZeit2" ? "(x)" : "(&nbsp;)") ?> 24.06.2013 bis 28.06.2013 (zweite Erhebungswoche)<br/>
                 <!-- oder<br/>
                 <?= ($_POST['durchfuehrung'] == "papier" && $_POST['papierZeit'] == "papierZeit3" ? "(x)" : "(&nbsp;)") ?> 09.01.2012 - 13.01.2012 -->
             </td>
@@ -53,9 +53,9 @@
         <tr>
             <td colspan="2" align="center" valign="top" style="border-top:1px solid black;border-bottom:2px solid black;padding:5px">
                 <b><u>Präsentation der Ergebnisse</u></b><br/>
-                <?= ($_POST['praesentation'] == "praesiStudip2" ? "(x)" : "(&nbsp;)") ?> 20.01.2014 bis 24.01.2014 (1. Präsentationswoche)<br />
+                <?= ($_POST['praesentation'] == "praesiStudip2" ? "(x)" : "(&nbsp;)") ?> 08.07.2013 bis 12.07.2013 (1. Präsentationswoche)<br />
                 <b>oder</b><br/>
-                <?= ($_POST['praesentation'] == "praesiStudip3" ? "(x)" : "(&nbsp;)") ?> 27.01.2014 bis 31.01.2014 (2. Präsentationswoche)<br/>
+                <?= ($_POST['praesentation'] == "praesiStudip3" ? "(x)" : "(&nbsp;)") ?> 15.07.2013 bis 19.07.2013 (2. Präsentationswoche)<br/>
                 <b>oder</b><br/>
                 <?= ($_POST['praesentation'] == "praesiStudip1" ? "(x)" : "(&nbsp;)") ?> Präsentation über Stud.IP (bevorzugt)
             </td>
