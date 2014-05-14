@@ -105,7 +105,7 @@ um den Rücklauf zu erhöhen.
                                                   id="durchfuehrungOnlineBlock">
 Die Veranstaltungsteilnehmer/innen erhalten per Email (...@student.uni-halle.de) eine Berechtigung und einen
 Link zur Evaluation.<br />
-Zeitraum: <strong>7.01.2014 bis 21.01.2014</strong></span>
+Zeitraum: <strong>17.06.2013 bis 28.06.2013</strong></span>
                                         </label>
 
                                     </li>
@@ -128,14 +128,14 @@ Zeitraum: <strong>7.01.2014 bis 21.01.2014</strong></span>
                                     <li>
                                         <label>
                                             <input type="radio" checked name="papierZeit" value="papierZeit1">
-                                            <span>7.01.2014 bis 10.01.2014 (erste Erhebungswoche)</span>
+                                            <span>17.06.2013 bis 21.06.2013 (erste Erhebungswoche)</span>
                                         </label>
                                     </li>
 
                                     <li>
                                         <label>
                                             <input type="radio" name="papierZeit" value="papierZeit2">
-                                            <span>13.01.2014 bis 17.01.2014 (zweite Erhebungswoche)</span>
+                                            <span>24.06.2013 bis 28.06.2013 (zweite Erhebungswoche)</span>
                                         </label>
                                     </li>
                                     <!-- li>
@@ -177,14 +177,14 @@ Zeitraum: <strong>7.01.2014 bis 21.01.2014</strong></span>
                                     <li>
                                         <label>
                                             <input type="radio" name="praesentation" value="praesiStudip2">
-                                            <span>20.01.2014 bis 24.01.2014 (1. Präsentationswoche)</span>
+                                            <span>08.07.2013 bis 12.07.2013 (1. Präsentationswoche)</span>
                                         </label>
                                     </li>
 
                                     <li>
                                         <label>
                                             <input type="radio" name="praesentation" value="praesiStudip3">
-                                            <span>27.01.2014 bis 31.01.2014 (2. Präsentationswoche)</span>
+                                            <span>15.07.2013 bis 19.07.2013 (2. Präsentationswoche)</span>
                                         </label>
                                     </li>
                                 </ul>

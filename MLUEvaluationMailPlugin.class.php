@@ -1,12 +1,5 @@
 <?php
-require_once 'lib/classes/SimpleORMap.class.php';
-require_once 'lib/classes/Institute.class.php';
-if(!class_exists('ExportPDF')){
-require_once dirname(__FILE__) . '/classes/exportdocument/ExportPDF.class.php';
-}
-if (!class_exists('AuthUserMd5')) {
-    require_once 'AuthUserMd5.class.php';
-}
+
 class MLUEvaluationMailPlugin extends StudipPlugin implements Systemplugin {
 
     public $config = array();
@@ -67,6 +60,9 @@ class MLUEvaluationMailPlugin extends StudipPlugin implements Systemplugin {
     * @return void
     */
     function perform($unconsumed_path) {
+        if(!class_exists('ExportPDF')){
+            require_once 'lib/classes/exportdocument/ExportPDF.class.php';
+        }
         if(!$unconsumed_path){
             header("Location: " . PluginEngine::getUrl($this), 302);
             return false;
